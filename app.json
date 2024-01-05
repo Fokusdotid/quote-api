@@ -1,0 +1,27 @@
+{
+    "name": "Malesin-Bot",
+    "description": "Malesin bot adalah WhatsApp Bot yang dikembangkan menggunakan NodeJs, dan di program oleh Fokus ID",
+    "keywords": [
+        "bot",
+        "baileys",
+        "malesin",
+        "whatsappbot"
+    ],
+    "scripts": {
+        "start": "node index.js"
+    },
+    "stack": "heroku-20",
+    "image": "heroku/heroku",
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ]
+}
