@@ -1,6 +1,6 @@
 {
-    "name": "Malesin-Bot",
-    "description": "Malesin bot adalah WhatsApp Bot yang dikembangkan menggunakan NodeJs, dan di program oleh Fokus ID",
+    "name": "quote-api",
+    "description": "Quote Api adalah Quote Generator",
     "keywords": [
         "bot",
         "baileys",
